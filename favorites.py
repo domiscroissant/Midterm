@@ -20,9 +20,9 @@ for i in range(4, 41, 2):
     print(i, end =" ")
 4.
 i = 100
-while i < 50:
+while i > 50:
     print(i)
-    i += 10
+    i -= 10
 5.
 quit=False
 while quit == False:
