@@ -43,5 +43,40 @@ def multiple (x,y,z):
 print(multiple(2,3,4))
 7.
 I think it's better if I try this one again next friday, sorry
+
+
+Midterm retakes retake:
+4.
+num = 20
+while num <= 60:
+    print(num, end = " ")
+    num += 2
     
+print()
+for i in range (20,62,2):
+    print (i, end = " ")
+5.
+doExist = False
+while doExist == False:
+    password = input("enter password")
+    if password == "12345":
+        doExist = True
+        print("accepted")
+    else:
+        print("not accepted")
+6.
+def  mathy(a, b, c, d):
+    return a+b-c+d
+
+print(mathy(10, 20, 30, 40))
+7.
+def garden(p):
+    print("your pumpkins are growing")
+    num = 1
+    while num <= p:
+        print("now you have", num, "pumpkins")
+        num+=1
+        
+seeds = int(input("enter number of seeds planted"))
+garden(seeds)
         
