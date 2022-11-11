@@ -79,4 +79,20 @@ def garden(p):
         
 seeds = int(input("enter number of seeds planted"))
 garden(seeds)
-        
+Midterm retake retake retake:
+5.
+doExist = False
+while doExist == False:
+    password = input("ring ring")
+    if password == "hello?":
+        doExist = True
+        print("we've been trying to reach you over your car's extented warranty")
+    else:
+        print("ring ring")
+6.
+def mathy(x,y):
+    return x % y
+
+print(mathy(8,3))
+7.
+
